@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمني - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>خدمني</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="job-search.html">Job Search</a>
+        </nav>
+    </header>
+    <main>
+        <div class="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="login-options">
+                    <label>
+                        <input type="radio" name="role" value="employer" checked> Employer
+                    </label>
+                    <label>
+                        <input type="radio" name="role" value="worker"> Worker
+                    </label>
+                </div>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 خدمني</p>
+    </footer>
+</body>
+</html>
